@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfySkill | Master Modern Skills</title>
+    <meta name="description" content="Top-notch skill development platform. Learn from the best and get placed.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Particles Background for Hero -->
+    <div id="tsparticles"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-graduation-cap"></i> Infy<span>Skill</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary neon-btn">Get Started</a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section-padding">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Accelerate Your Career with <br>
+                    <span class="gradient-text typed-text"></span>
+                </h1>
+                <p class="hero-subtitle">
+                    Join the world's most premium skill-building platform. Learn cutting-edge tech from industry experts and secure your dream job.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#courses" class="btn btn-primary btn-large neon-btn">Explore Courses <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline btn-large">Join Now</a>
+                </div>
+            </div>
+            <div class="hero-image parallax-img">
+                <div class="glass-card float-card card-1">
+                    <i class="fa-brands fa-react react-icon"></i>
+                    <div>
+                        <h4>React Mastery</h4>
+                        <p>Next Cohort Starts Soon</p>
+                    </div>
+                </div>
+                <div class="glass-card float-card card-2">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <div>
+                        <h4>95% Placement</h4>
+                        <p>Guaranteed Success</p>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Students Learning" class="main-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container stats-container">
+            <div class="stat-box glass-card">
+                <i class="fa-solid fa-users"></i>
+                <h2 class="counter" data-target="10000">0</h2>
+                <p>Happy Students</p>
+            </div>
+            <div class="stat-box glass-card">
+                <i class="fa-solid fa-book-open"></i>
+                <h2 class="counter" data-target="150">0</h2>
+                <p>Premium Courses</p>
+            </div>
+            <div class="stat-box glass-card">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h2 class="counter" data-target="50">0</h2>
+                <p>Expert Mentors</p>
+            </div>
+            <div class="stat-box glass-card">
+                <i class="fa-solid fa-building"></i>
+                <h2 class="counter" data-target="500">0</h2>
+                <p>Hiring Partners</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Our Top <span class="gradient-text">Courses</span></h2>
+                <p class="section-desc">Master the most in-demand skills with our comprehensive, project-based curriculum.</p>
+            </div>
+            <div class="courses-grid">
+                <!-- Course 1 -->
+                <div class="course-card glass-card tilt-card">
+                    <div class="course-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="React Development">
+                        <span class="badge">Bestseller</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Full Stack MERN</h3>
+                        <p>Master MongoDB, Express, React, and Node.js by building real-world applications.</p>
+                        <div class="course-meta">
+                            <span><i class="fa-solid fa-clock"></i> 6 Months</span>
+                            <span><i class="fa-solid fa-star text-warning"></i> 4.9</span>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">View Details</a>
+                    </div>
+                </div>
+                <!-- Course 2 -->
+                <div class="course-card glass-card tilt-card">
+                    <div class="course-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="UI/UX Design">
+                    </div>
+                    <div class="course-content">
+                        <h3>UI/UX Design</h3>
+                        <p>Learn Figma, design thinking, and create stunning user interfaces and experiences.</p>
+                        <div class="course-meta">
+                            <span><i class="fa-solid fa-clock"></i> 4 Months</span>
+                            <span><i class="fa-solid fa-star text-warning"></i> 4.8</span>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">View Details</a>
+                    </div>
+                </div>
+                <!-- Course 3 -->
+                <div class="course-card glass-card tilt-card">
+                    <div class="course-img-wrapper">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Data Science">
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science & AI</h3>
+                        <p>Dive into Python, Machine Learning, and Neural Networks with practical datasets.</p>
+                        <div class="course-meta">
+                            <span><i class="fa-solid fa-clock"></i> 8 Months</span>
+                            <span><i class="fa-solid fa-star text-warning"></i> 4.9</span>
+                        </div>
+                        <a href="#" class="btn btn-outline full-width">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="features" class="features section-padding bg-darker">
+        <div class="container">
+            <div class="feature-layout">
+                <div class="feature-text">
+                    <h2 class="section-title">Why Choose <span class="gradient-text">InfySkill?</span></h2>
+                    <p class="section-desc">We don't just teach, we transform careers. Our platform is built on modern principles to ensure you succeed.</p>
+                    <ul class="feature-list">
+                        <li>
+                            <i class="fa-solid fa-check-circle text-primary"></i>
+                            <div>
+                                <h4>Industry-Led Curriculum</h4>
+                                <p>Updated continuously to match current market demands.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle text-primary"></i>
+                            <div>
+                                <h4>1-on-1 Mentorship</h4>
+                                <p>Get personalized guidance from top tech professionals.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle text-primary"></i>
+                            <div>
+                                <h4>Placement Assistance</h4>
+                                <p>Resume building, mock interviews, and direct referrals.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-visuals">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Team Discussion" class="feature-main-img img-rounded">
+                    <div class="decorative-blob"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alumni Section -->
+    <section id="alumni" class="alumni section-padding">
+        <div class="container text-center">
+            <h2 class="section-title">Our <span class="gradient-text">Success</span> Stories</h2>
+            <p class="section-desc">Meet some of our amazing alumni who landed their dream jobs.</p>
+            
+            <div class="alumni-slider-wrapper">
+                <div class="alumni-track">
+                    <!-- Alumni 1 -->
+                    <div class="alumni-card glass-card">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Sarah" class="alumni-img">
+                        <h4>Sarah Jenkins</h4>
+                        <p class="text-primary">Frontend Developer</p>
+                        <p class="alumni-company">Placed at <strong>Google</strong></p>
+                        <p class="quote">"InfySkill completely changed my career trajectory. The React course was phenomenal."</p>
+                    </div>
+                    <!-- Alumni 2 -->
+                    <div class="alumni-card glass-card">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="David" class="alumni-img">
+                        <h4>David Chen</h4>
+                        <p class="text-primary">Data Scientist</p>
+                        <p class="alumni-company">Placed at <strong>Amazon</strong></p>
+                        <p class="quote">"The mentors are top-notch. I went from zero coding knowledge to a solid ML role."</p>
+                    </div>
+                    <!-- Alumni 3 -->
+                    <div class="alumni-card glass-card">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80" alt="Priya" class="alumni-img">
+                        <h4>Priya Sharma</h4>
+                        <p class="text-primary">UI/UX Designer</p>
+                        <p class="alumni-company">Placed at <strong>Microsoft</strong></p>
+                        <p class="quote">"Building a real portfolio through the coursework was the key to my success."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq section-padding bg-darker">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item glass-card">
+                    <div class="accordion-header">
+                        <h3>Do I need prior coding experience?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Not at all! Our courses are designed to take you from absolute beginner to advanced professional. We start with the basics before moving to complex concepts.</p>
+                    </div>
+                </div>
+                <div class="accordion-item glass-card">
+                    <div class="accordion-header">
+                        <h3>Do you guarantee placements?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>We provide 100% placement assistance, including portfolio reviews, interview prep, and direct connections to our hiring partners. Your hard work combined with our support ensures success.</p>
+                    </div>
+                </div>
+                <div class="accordion-item glass-card">
+                    <div class="accordion-header">
+                        <h3>How long do I have access to the materials?</h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Once you enroll, you get lifetime access to the course content, including all future updates and additions to the curriculum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container contact-container glass-card">
+            <div class="contact-info">
+                <h2>Get in <span class="gradient-text">Touch</span></h2>
+                <p>Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope text-primary"></i>
+                    <span>hello@infyskill.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone text-primary"></i>
+                    <span>+1 (555) 123-4567</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot text-primary"></i>
+                    <span>Tech Park, Silicon Valley, CA</span>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" required placeholder=" " rows="4"></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="button" class="btn btn-primary neon-btn full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-graduation-cap"></i> Infy<span>Skill</span>
+                </a>
+                <p>Empowering the next generation of tech leaders through accessible, premium education.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#alumni">Alumni</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 InfySkill. All rights reserved. Designed professionally.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine@2.12.0/tsparticles.engine.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
